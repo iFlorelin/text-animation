@@ -1,0 +1,121 @@
+
+/* Style-none */
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Roboto;
+    scrollbar-width: none;
+    scrollbar-color: #ffd900 black;
+}
+
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/* Frontend mee! */
+
+body {
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+.wraper {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    height: 60px;
+    background: #ffd900;
+}
+
+/* .header__nav {
+}
+
+.nav__control {
+}
+
+.nav__menu {
+}
+
+.nav__menu__element {
+}
+
+.nav__menu__link {
+} */
+
+.main {
+    width: 75vw;
+    height: 100%;
+    /* border-left: 1px solid #ffd900;
+    border-right: 1px solid #ffd900; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.main__left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+/* .main__left__element {
+} */
+
+.left__txt {
+    color: #ffd900;
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+.main__right {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+    padding: 100px;
+}
+
+.left__line {
+    transition: 400ms;
+    margin-left: 12px;
+    background: #ffd900;
+    opacity: 0;
+}
+
+.inline {
+    width: 10px;
+    height: 85px;
+    opacity: 1;
+}
